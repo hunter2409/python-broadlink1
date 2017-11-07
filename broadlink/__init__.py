@@ -629,5 +629,3 @@ def setup(ssid, password, security_mode):
   sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
   sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
   sock.sendto(payload, ('255.255.255.255', 80))
-
-
